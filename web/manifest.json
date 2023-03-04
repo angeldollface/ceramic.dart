@@ -1,0 +1,11 @@
+{
+    "name": "ceramic",
+    "short_name": "ceramic",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#EA1573",
+    "theme_color": "#EA1573",
+    "description": "My graphical implementation in Flutter of an IMEI validation app.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
