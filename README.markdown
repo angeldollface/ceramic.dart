@@ -26,7 +26,7 @@ You can view the live, deployed project on GitHub Pages [here](https://angeldoll
 
 ## INSTALLATION :inbox_tray:
 
-There are compiled binary executables for Android and Mac OSX in this repository's [Releases Section](https://github.com/angeldollface/ceramic.dart/releases).
+There are compiled bundles for the web and Mac OSX in this repository's [Releases Section](https://github.com/angeldollface/ceramic.dart/releases).
 
 ### Build from source
 
@@ -35,7 +35,6 @@ Make sure you have the following tools installed and, where required, available 
 - [Flutter](https://flutter.dev)
 - [Git](https://git-scm.org)
 - For testing and rendering on the web: [Chrome](https://www.google.com/chrome/)
-- For Android: [Android Studio](https://developer.android.com/studio) and the [Java JDK](https://www.oracle.com/java/technologies/downloads/)
 - For Mac OSX: [XCode](https://developer.apple.com/xcode/)
 
 To build bundles for the platform of your choice from the source code, execute the following steps on the command line:
@@ -62,12 +61,6 @@ flutter build web --release
 
 ```bash
 flutter build macos --release
-```
-
-- 3c.) Prepare a build for Android by generating a Java Keystore and moving this to `android/app`. After this has been completed, fill out the missing information in the keystore information file, `android/app/key.properties`. Once these things are done, run the following command to build for an Android target:
-
-```bash
-flutter build apk --release
 ```
 
 - 4.) Run the generated bundle on the platform of your choice.
