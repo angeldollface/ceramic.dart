@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-Since I implemented my algorithms to validate IMEI numbers, I thought, to showcase my Flutter skills that I'd give my Dart validation library a shiny frontend. This repository contains the source code for that shiny frontend.
+Since I implemented the Luhn algorithm to validate IMEI numbers in multiple languages, I thought, to showcase my Flutter skills that I'd give my Dart validation library a shiny frontend. This repository contains the source code for that shiny frontend.
 
 ## LINKS :earth_americas:
 
@@ -24,17 +24,19 @@ You can view the live, deployed project on GitHub Pages [here](https://angeldoll
 
 ## INSTALLATION :inbox_tray:
 
-### Requirements
+There are compiled binary executables for Android and Mac OSX in this repository's [Releases Section](https://github.com/angeldollface/ceramic.dart/releases).
 
-Make sure you have the following tools installed and available from the command line:
+### Build from source
+
+Make sure you have the following tools installed and, where required, available from the command line:
 
 - [Flutter](https://flutter.dev)
 - [Git](https://git-scm.org)
-- For testing and rendering: [Chrome](https://www.google.com/chrome/)
+- For testing and rendering on the web: [Chrome](https://www.google.com/chrome/)
+- For Android: [Android Studio](https://developer.android.com/studio) and the [Java JDK](https://www.oracle.com/java/technologies/downloads/)
+- For Mac OSX: [XCode](https://developer.apple.com/xcode/)
 
-### Getting the source code
-
-To get the source code, execute the following steps on the command line:
+To build bundles for the platform of your choice from the source code, execute the following steps on the command line:
 
 - 1.) Get the source code:
 
@@ -48,17 +50,25 @@ git clone https://github.com/angeldollface/ceramic.dart.git
 cd ceramic.dart
 ```
 
-- 3.) View *Ceramic.dart* in Chrome:
-
-```bash
-flutter run -d chrome
-```
-
-- 4.) (Optional) Make a release build to deploy to a web server:
+- 3a.) Build for a web target:
 
 ```bash
 flutter build web --release
 ```
+
+- 3b.) Build for a Mac OSX target:
+
+```bash
+flutter build macos --release
+```
+
+- 3c.) Prepare a build for Android by generating a Java Keystore and moving this to `android/app`. After this has been completed, fill out the missing information in the keystore information file, `android/app/key.properties`. Once these things are done, run the following command to build for an Android target:
+
+```bash
+flutter build apk --release
+```
+
+- 4.) Run the generated bundle on the platform of your choice.
 
 ## CHANGELOG :black_nib:
 
