@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-Since I implemented the Luhn algorithm to validate IMEI numbers in multiple languages, I thought, to showcase my Flutter skills that I'd give my Dart validation library a shiny frontend. This repository contains the source code for that shiny frontend.
+Since I implemented the Luhn algorithm to validate IMEI numbers in multiple languages, I thought, to showcase my Flutter skills, I'd give my Dart implementation of this algorithm a shiny frontend. This repository contains the source code for that shiny frontend.
 
 ## LINKS :earth_americas:
 
@@ -17,6 +17,8 @@ Since I implemented the Luhn algorithm to validate IMEI numbers in multiple lang
 - Web app implementation in Rust: [VIEW](https://github.com/angeldollface/ceramic.rs)
 - Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/ceramic)
 - Web app implementation in React: [VIEW](https://github.com/angeldollface/react-ceramic)
+- Web app implementation in C#: [VIEW](https://github.com/angeldollface/ceramic-api.cs)
+- Library implementation in C#: [VIEW](https://github.com/angeldollface/luhny.cs)
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
