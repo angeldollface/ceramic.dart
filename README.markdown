@@ -14,7 +14,6 @@ Since I implemented the Luhn algorithm to validate IMEI numbers in multiple lang
 - Library implementation in Dart: [VIEW](https://github.com/angeldollface/luhny.dart)
 - Library implementation in Python: [VIEW](https://github.com/angeldollface/pyluhny)
 - Library implementation in Rust: [VIEW](https://github.com/angeldollface/luhny.rs)
-- Web app implementation in Rust: [VIEW](https://github.com/angeldollface/ceramic.rs)
 - Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/ceramic)
 - Web app implementation in React: [VIEW](https://github.com/angeldollface/react-ceramic)
 - Web app implementation in C#: [VIEW](https://github.com/angeldollface/ceramic-api.cs)
