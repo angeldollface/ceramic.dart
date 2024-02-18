@@ -21,7 +21,7 @@ Since I implemented the Luhn algorithm to validate IMEI numbers in multiple lang
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-You can view the live, deployed project on GitHub Pages [here](https://angeldollface.art/ceramic.dart).
+You can view the live, deployed project on GitHub Pages [here](https://angeldollface.boo/ceramic.dart).
 
 ## INSTALLATION :inbox_tray:
 
